@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="page">
+
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="swiper-box" id="top">
+    <block wx:for-items="{{swiper_list}}" wx:key="index">
+      <swiper-item >
+        <image class="slide-image" src="{{item}}"/>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class='hg-container' id="new" >
+    <text class="hg-title">新品推荐</text>
+      <view class='gooditem'>
+          <view class='imgview' wx:key="index"  wx:for="{{new_goods}}">
+            <image class='productimg' src='{{item}}'/>
+          </view>
+      </view>
+  </view>
+
+  <view class='hg-container'>
+    <text class="hg-title">超值买</text>
+      <view class='gooditem'>
+          <view class='imgview' wx:key="index"  wx:for="{{promotional_goods}}">
+            <image class='productimg' src='{{item}}'/>
+          </view>
+      </view>
+  </view>
+</view>
