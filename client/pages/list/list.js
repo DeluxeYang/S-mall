@@ -56,7 +56,7 @@ Page({
     var lookid = e.currentTarget.dataset;
     console.log(e.currentTarget.dataset.id);
     wx.navigateTo({
-      url: "/pages/yiguo/detail/detail?id=" + lookid.id
+      url: "/pages/details/details?id=" + lookid.id
     })
   },
   switchSlider: function (e) {

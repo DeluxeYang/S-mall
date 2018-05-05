@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/list/list"
+    "pages/list/list",
+    "pages/details/details"
   ],
   "tabBar": {
     "color": "#858585",
@@ -23,7 +24,7 @@
         "text": "全部"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/list/list",
         "iconPath": "images/icons/cart_tab.png",
         "selectedIconPath": "images/icons/cart_tab_selected.png",
         "text": "购物车"
