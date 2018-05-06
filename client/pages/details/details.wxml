@@ -1,16 +1,15 @@
-<view class="detail-box">
-  <view class="detail-list">
+<view class="details-page">
+  <view class="details">
     <scroll-view scroll-y="true" style="height: 100%;">
-      <view><image src="{{detailgood.pic_url}}"></image></view>
-      <view class="detail-name">
-      <ul>
-        <li>{{detailgood.name}} </li>
-        <li>{{detailgood.price}} </li>
-        <li>规格 {{detailgood.type}} </li>
-        <li>信息 产地：泰国 发货地: 结单时间：20:00 </li>
-        <li>用户评价（31）</li>
-        <li>商品图文详情 </li>
-      </ul>
+      <view><image class="details_pic" src="{{item_details.pic_url}}" ></image></view>
+      <view  class="details_list">
+        <ul>
+          <li class="details_name"><text class="details_text">{{item_details.name}} </text></li>
+          <li><text class="details_text">价格: {{item_details.price}}  </text></li>
+          <li><text class="details_text">规格: {{item_details.package}}  </text></li>
+          <li><text class="details_text">产地：泰国 发货地: 结单时间：20:00  </text></li>
+          <li><text class="details_text">用户评价（31） </text></li>
+        </ul>
       </view>
       <view class='hot-container'>
         <view class="hot-title">热门推荐</view>
