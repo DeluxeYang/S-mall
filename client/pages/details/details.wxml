@@ -22,8 +22,6 @@
     </scroll-view>
   </view>
   <view class="detail-footer">
-    <view class="detail-1"></view>
-    <view class="detail-2"></view>
     <view class="detail-3"><text>加入购物车</text></view>
     <view class="detail-4"><text>立即购买</text></view>
   </view>
