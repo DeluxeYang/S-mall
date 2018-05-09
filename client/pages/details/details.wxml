@@ -1,7 +1,7 @@
 <view class="details-page">
   <view class="details">
-    <scroll-view scroll-y="true" style="height: 100%;">
-      <view><image class="details_pic" src="{{item_details.pic_url}}" ></image></view>
+    <scroll-view scroll-y="true" style="height: 100%;width: 100%;">
+      <image class="details_pic" mode="aspectFit" src="{{item_details.pic_url}}" ></image>
       <view  class="details_list">
         <ul>
           <li class="details_name"><text class="details_text">{{item_details.name}} </text></li>

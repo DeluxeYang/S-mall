@@ -15,7 +15,7 @@ Page({
       "package": "3.3kg/箱"
     }, {
       "id": 101003,
-      "name": "澳大利亚脐橙12个约160g/个(北京)",
+      "name": "澳大利亚脐橙12个约160g/个(北京)aaaaa",
       "price": "178.0",
       "package": "3.3kg/箱",
       "pic_url": "http://img12.yiguoimg.com/e/ad/2016/160914/585749449480249646_260x320.jpg"
@@ -87,7 +87,7 @@ Page({
       "package": "3.3kg/箱"
     }, {
       "id": 101001,
-      "name": "澳大利亚脐橙12个约160g/个(北京)",
+      "name": "澳大利亚脐橙12个约160g/个(北京)11111111111",
       "price": "180.0",
       "package": "3.3kg/箱",
       "pic_url": "http://img12.yiguoimg.com/e/ad/2016/160914/585749449480249646_260x320.jpg"
@@ -130,7 +130,7 @@ Page({
         })
       }
     })
-    console.log(this.data.detailgood)
+    console.log(this.data.item_details)
   },
 
   onReady: function () {
